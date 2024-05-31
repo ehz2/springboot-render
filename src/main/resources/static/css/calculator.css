@@ -1,0 +1,144 @@
+#body {
+
+    background-color: #a6192d;
+
+}
+
+#main {
+
+    background-color: #3d3935;  
+    padding: 20px 0px 20px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+}
+
+#outer {
+
+    background-color: #ffffff;
+    padding: 40px 0px 20px 30px;
+
+}
+
+#title {
+
+    padding: 10px 0px 20px 0px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#inner {
+
+    background-color: #e9eff1; 
+    width: 55%;
+    padding: 30px 15px 20px 15px;
+
+}
+
+.red_text {
+
+    font-size: 20px;
+    font-weight: 700;
+    color: #a6192d;
+    padding: 0px 0px 10px 0px 
+ 
+}
+
+.normal_text {
+
+    font-size: 16px;
+    padding: 10px 0px 20px 0px
+
+}
+
+table, th, td {
+
+    border: 1px solid #b6b6b6;
+    border-collapse: collapse;
+    text-align: left;
+
+}
+
+.header {
+
+    background-color: #dddddd;
+    padding: 5px 5px 5px 5px;
+
+}
+
+.entry {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.entrybox {
+
+    width: 25%; 
+    height: 30px;
+
+}
+
+.inputbox {
+
+    height: 90%;
+    width: 30%;
+
+}
+
+#rowbutton {
+
+    padding: 2px 5px 2px 5px;
+    margin: 20px 0px 15px 0px;
+
+}
+
+#meanbutton {
+
+    background-color: #b51119;
+    border: none;
+    color: #f6e6e6;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 26px; 
+    margin: 30px 5px 0px 10px;
+    border-radius: 4px;
+    text-align: center;
+
+}
+
+#weightedbutton {
+
+    background-color: #b51119;
+    border: none;
+    color: #f6e6e6;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+    margin: 30px 5px 0px 10px;
+    border-radius: 4px;
+    text-align: center;
+
+}
+
+.whitespace1 {
+
+    padding: 10px;
+
+}
+
+.whitespace2 {
+
+    padding: 20px;
+
+}
+
+#results {
+
+    padding: 0px 0px 0px 15px;
+    float: left;
+
+}

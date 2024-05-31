@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title> 
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js" defer></script>
+</head>
+<body id = "body">
+
+    <main id = "main"> 
+
+        <section id = "outer">
+
+            <section id = "title">
+                Grade Calculator
+            </section>
+
+            <section id = "inner">
+
+                <section class = "red_text">
+                    Activities
+                </section>
+        
+                <section class = "normal_text"> 
+                    Give grades to the numeric activites:
+                </section>
+    
+                <form id = "form">
+
+                    <table style = "width:100%;" id = "table">
+                    <tr> 
+                        <th style = "width:20%" class = "header">Name</th>
+                        <th style = "width:20%" class = "header">Short Name</th> 
+                        <th style = "width:20%" class = "header">Weight</th>
+                        <th style = "width:20%" class = "header">Grade</th>
+                        <th style = "width:20%" class = "header">Percent</th>
+                    </tr>
+                    <tr>
+                        <td class = "entry" id = "name1">Activity 1</td>
+                        <td class = "entry" id = "sname1">A1</td> 
+                        <td class = "entry"><input type = "number" style = "width:25%; height: 30px" id = weight1></td>
+                        <td class = "entry" id = "grade1"><input type = "number" id = num1 class = "entrybox" onkeydown = "calper()" onkeyup = "calper()" oninput = "calper()"> /
+                            <input type = "number" id = denom1 class = "entrybox" onkeydown = "calper()" onkeyup = "calper()" oninput = "calper()"></td>
+                        <td class = "entry" id = per1></td>
+                    </tr>
+                    </table> 
+
+                    <button type="button" id = "rowbutton" onclick="addrow()">
+                        ADD ROW
+                    </button>
+                    
+                    <section class = "red_text">
+                        Results
+                    </section>
+
+                    <button type="button" id = "meanbutton" style = "float: right" onclick="calmean()">
+                        MEAN
+                    </button>
+
+                    <button type="button" id = "weightedbutton" style = "float: right" onclick="calweighted()">
+                        WEIGHTED
+                    </button>
+
+                    <section class = "whitespace1"> </section>
+                    <section id = "results"> </section>
+                    <section class = "whitespace2"> </section>
+
+                </form>
+                
+            </section> 
+
+        </section>
+
+    </main>
+
+</body>
+</html>
